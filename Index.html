@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>สั่งเครปออนไลน์</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Kanit', sans-serif;
+    }
+    body {
+      background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px 16px;
+    }
+    .card-container {
+      width: 100%;
+      max-width: 420px;
+      text-align: center;
+    }
+    .profile-icon {
+      width: 76px;
+      height: 76px;
+      background: #ea580c;
+      color: #ffffff;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      margin-bottom: 16px;
+      box-shadow: 0 10px 15px -3px rgba(234, 88, 12, 0.3);
+    }
+    h1 {
+      font-size: 1.6rem;
+      color: #1f2937;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    p.subtitle {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    .order-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      text-decoration: none;
+      color: #1f2937;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      border: 2px solid transparent;
+      transition: all 0.2s ease;
+    }
+    .order-btn:hover, .order-btn:active {
+      border-color: #f97316;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.15);
+    }
+    .btn-info {
+      text-align: left;
+    }
+    .branch-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #111827;
+      display: block;
+    }
+    .branch-desc {
+      font-size: 0.85rem;
+      color: #ea580c;
+    }
+    .arrow-icon {
+      font-size: 1.2rem;
+      color: #9ca3af;
+    }
+    .footer-note {
+      font-size: 0.8rem;
+      color: #9ca3af;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card-container">
+    <div class="profile-icon">🥞</div>
+    <h1>สั่งเครปร้อนๆ ส่งตรงถึงคุณ</h1>
+    <p class="subtitle">เลือกสาขาใกล้บ้านเพื่อเริ่มสั่งออเดอร์</p>
+
+    <!-- ลิงก์สาขาเซนทรัล -->
+    <a href="https://mobile-order.wongnai.com/r/8fd10ca0-c8e6-402d-8b95-ab8fd17f5a0e" class="order-btn" target="_blank" rel="noopener noreferrer">
+      <div class="btn-info">
+        <span class="branch-name">📍 สาขา เซ็นทรัล</span>
+        <span class="branch-desc">กดสั่ง Wongnai POS Mobile Order</span>
+      </div>
+      <span class="arrow-icon">➔</span>
+    </a>
+
+    <!-- ลิงก์สาขาซอย 11 -->
+    <a href="https://mobile-order.wongnai.com/r/2f51d36f-bcb6-4668-ad41-6b79915394c8" class="order-btn" target="_blank" rel="noopener noreferrer">
+      <div class="btn-info">
+        <span class="branch-name">📍 สาขา ซอย 11</span>
+        <span class="branch-desc">กดสั่ง Wongnai POS Mobile Order</span>
+      </div>
+      <span class="arrow-icon">➔</span>
+    </a>
+
+    <div class="footer-note">สั่งล่วงหน้า ไม่ต้องรอคิวหน้าร้าน</div>
+  </div>
+</body>
+</html>
